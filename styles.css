@@ -1,0 +1,175 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e6e6e6;
+    color: black;
+}
+
+/* The navbar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ffd11a;
+    color: #333;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.badge {
+    color: #ffd11a;
+    background-color: #333;
+    font-size: small;
+}
+
+.badge a:hover {
+    background-color: #ffd11a;
+    color: #333;
+    font-size: large;
+}
+
+.circleImage {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.icons {
+    padding-top: 10px;
+}
+
+i {
+    color: #333;
+}
+
+i:hover {
+    color: #ffd11a;
+}
+
+.bottom-padding-ten {
+    padding-bottom: 10px;
+}
+
+.links {
+    a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#myTable {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+}
+
+#myTable th, #myTable td {
+    text-align: left;
+    padding: 12px;
+}
+
+#myTable tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#myInput2 {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#myTable2 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+}
+
+#myTable2 th, #myTable2 td {
+    text-align: left;
+    padding: 12px;
+}
+
+#myTable2 tr {
+    border-bottom: 1px solid #ddd;
+    font-style: bold;
+}
+
+#myInput3 {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#myTable3 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+}
+
+#myTable3 th, #myTable3 td {
+    text-align: left;
+    padding: 12px;
+}
+
+#myTable3 tr {
+    border-bottom: 1px solid #ddd;
+    font-style: bold;
+}
