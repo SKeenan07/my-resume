@@ -1,0 +1,140 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #313a6b;
+    color: #FFFFFF;
+}
+
+.light-mode {
+        height: 100%;
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #e6e6e6;
+        color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Caveat Brush', cursive;
+    color: #92bae7;
+}
+
+.light-mode h1, .light-mode h2, .light-mode h3, .light-mode h4, .light-mode h5, .light-mode h6 {
+    font-family: 'Caveat Brush', cursive;
+    color: #e6e6e6;
+}
+
+/* The navbar */
+.navbar {
+    overflow: hidden;
+    background-color: #313a6b;
+}
+
+/* The navbar */
+.light-mode .navbar {
+    overflow: hidden;
+    background-color: #e6e6e6;
+}
+
+/* Navbar links */
+.navbar a {
+    float: left;
+    color: #92bae7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.lightmode .navbar a {
+    float: left;
+    color: #92bae7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: #7778a4;
+}
+
+.lightmode .navbar a:hover {
+    color: #7778a4;
+}
+
+.circle-image {
+    border: 4px solid #92bae7;
+    border-radius: 50%;
+    width: 400px;
+    content: url("IMG_9718.jpeg");
+}
+
+.light-mode .circle-image {
+    border: 4px solid #92bae7;
+    border-radius: 50%;
+    width: 400px;
+    content: url("IMG_9269.JPG");
+}
+
+.icons {
+    padding: 10px;
+    color: #92bae7;
+}
+
+.light-mode .icons {
+    padding: 10px;
+    color: #92bae7;
+}
+
+i {
+    color: #92bae7;
+}
+
+.light-mode i {
+    color: #92bae7;
+}
+
+i:hover {
+    color: #7778a4;
+}
+
+.light-mode i:hover {
+    color: #7778a4;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.parallax1 {
+  /* The image used */
+  background-image: url(https://images.unsplash.com/photo-1537052916033-2916fab31a9e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block-parallax {
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+
+
+
